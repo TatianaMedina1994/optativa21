@@ -1,0 +1,21 @@
+#uno{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    height: 110px;
+}
+#barra{
+    margin-top: -19px;
+    
+}
+.lista1{
+    width: 20px;
+    height:20px;
+    
+}
+#parrafo {
+    background-color: violet;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Cristobal de Troya</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" />
+</head>
+<body  class="blue lighten-5" style="background-image: url('imagenes/fondo-azul.jpg')">
+    <h3 id="uno">Unidad Educativa "Capitán Cristóbal de Troya"</h3>
+    
+   <ul id="dropdown1" class="dropdown-content">
+       <li><a href="./Vista/mision.php">Misión</a></li>
+        <li class="divider"></li>
+        <li><a href="Vista/vision.php">Visión</a></li>
+  <li class="divider"></li>
+  <li><a href="Vista/resenia.php">Reseña Histórica</a></li>
+</ul>
+<nav>
+    <div class="nav-wrapper" id="barra">
+    <ul class="left hide-on-med-and-down">
+        <li class="active"><a href="sass.html">Inicio</a></li>
+     
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Quienes Somos<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="Vista/correo.php">Correo institucional</a></li>
+      <!-- Dropdown Trigger -->
+    </ul>
+  </div>
+</nav>
+    <br><br>
+    <div class="slider">
+                <ul class="slides">
+                    <li><img src="imagenes/1.jpg" alt=""></li>
+                    <li><img src="imagenes/2.jpg" alt=""></li>
+                    <li><img src="imagenes/3.jpg" alt=""></li>
+                    <li><img src="imagenes/5.jpg" alt="">
+                    </li>
+                    <li><img src="imagenes/4.jpg" alt="">
+            
+                    </li>
+                </ul>
+                
+            </div>
+  
+ 
+  <div class="container">
+      
+      
+    <div class="section">
+
+     
+    </div>
+      <br><br><br>   <br><br><br>
+
+    <div class="section">
+        <br><br><br><br><br><br>    <br><br><br><br><br><br>
+    </div>
+  </div>
+
+  <footer class="page-footer red">
+    <div class="container">
+        
+      <div class="row">
+        <div style="height: 130px;">
+          <h5 class="white-text ">Contáctenos</h5>
+          
+          <ul>
+              <li ><img src="imagenes/direccion-icono.png" alt="" class="lista1"> <a class="white-text"> Dirección: Barrio el Ejido, Calles 5 de junio y 8 de marzo</a></li>
+              <li><img src="imagenes/icono-telefono-azul.png"  alt="" class="lista1"><a class="white-text" > Teléfono:(06)2631420</a></li>
+              <li><img src="imagenes/email_14410.png"  alt="" class="lista1"><a class="white-text" >E-mail: sergjarabe@hotmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <div   class="footer-copyright">
+      <div class="container">
+      Realizado por: Tatiana Medina, Boonter Cabascango <a class="red white-text" ></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script >
+       $(document).ready(function(){
+        $('.button-collapse').sideNav();
+        $('.slider').slider({
+            interval:3000
+        });
+        
+      $(".dropdown-button").dropdown();
+        
+      });
+  </script>
+
+  </body>
+</html>
